@@ -3,9 +3,7 @@ layout: post
 title:  "Không Tivi để không bị ăn bớt những năm ấu thơ của con"
 summary: "Những năm tháng tuổi ấu thơ của con chỉ đến có một lần, quyết không để TV ăn bớt!"
 date:   2016-01-26 14:25:45 +0700
-tags:
-- BelieveInGoodness
-- LifeProTip
+tags: BelieveInGoodness LifeProTip
 ---
 > FB chị Thu Ha: [https://www.facebook.com/thu.ha.39545464/posts/1131986746825931](https://www.facebook.com/thu.ha.39545464/posts/1131986746825931){:target="_blank"}
 
