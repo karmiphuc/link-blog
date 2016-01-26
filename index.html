@@ -12,24 +12,32 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} |
+        <span class="tag_list">
+          {% for tag in post.tags %}
+          <span class="inline archive_list"><a class="tag_list_link" href="{{site.baseurl}}/tag/{{ tag }}">#{{ tag }}</a></span>
+          {% endfor %}
+        </span>    
+    </span>
+    
+    <p class="summary">{{post.summary}}</p>
   </div>
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">&lt;-</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">&lt;-</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">-&gt;</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">-&gt;</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">-&gt;</span>
   {% endif %}
 </div>
