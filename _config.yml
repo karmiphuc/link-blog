@@ -22,15 +22,15 @@ markdown: kramdown
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+#permalink:           pretty
+#relative_permalinks: true
 
 # Setup
 title:               Karmi's Link Blog
 tagline:             'Things I want to archive for later'
 description:         'Things I want to archive for later'
-url:                 https://karmiphuc.github.io/link-blog
-baseurl:             ''
+url:                 https://karmiphuc.github.io
+baseurl:             '/link-blog'
 paginate:            5
 
 # About/contact
