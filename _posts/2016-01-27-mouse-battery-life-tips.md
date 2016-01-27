@@ -1,5 +1,10 @@
-## Increase the Battery Life of your Mouse
-
+---
+layout: post
+title:  "Increase the Battery Life of your Wireless Mouse"
+summary: "Speaking of battery life, here are some additional tips courtesy Logitech that may further push the battery life of your wireless mouse."
+date:   2016-01-27 14:25:45 +0700
+tags: LifeProTip
+---
 Speaking of battery life, here are some additional tips courtesy [Logitech] that may further push the battery life of your wireless mouse.
 
 * Get a light-colored mouse pad. While your mice may work well on your black granite table or even transparent surfaces like glass, they are best avoided as they cause the tracking sensor in the mouse to use more power.
