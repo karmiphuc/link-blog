@@ -2,7 +2,7 @@
 layout: post
 title:  "Cách người Nhật làm dịch vụ khiến thế giới ngưỡng mộ"
 summary: "Nếu bạn là người từng rất hoài nghi về việc Tập đoàn đường sắt Nhật duy trì một chuyến tàu và nhà ga tàu thêm 3 năm chỉ để phục vụ duy nhất một hành khách thì câu chuyện dưới đây sẽ khiến bạn phải suy nghĩ lại cách hiểu của mình về nước Nhật."
-date:   2016-01-26 14:25:45 +0700
+date:   2016-02-03 14:48:45 +0700
 tags: BelieveInGoodness
 ---
 
@@ -57,3 +57,5 @@ Và theo ông chia sẻ, cuộc sống bình yên không phải lo lắng về s
 _Trong ảnh chính là số tiền 38 yên mà giáo sư nhận lại từ bưu điện_
 
 ![Số tiền 38 yên](http://40.media.tumblr.com/3cc943cbba041dd6369fa6f5ac7488e0/tumblr_o1wwhj0ekn1qzcciuo1_500.jpg)
+
+> Source: http://bizlive.vn/bizlife/tai-sao-cach-lam-dich-vu-cua-nguoi-nhat-khien-ca-the-gioi-phai-cui-dau-nguong-mo-1583881.html
