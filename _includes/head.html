@@ -2,6 +2,27 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+  <link rel="prefetch" href="http://karmiphuc.com/">
+  <meta property="fb:admins" content="100000023814639"/>
+  <meta property="og:title" content="{% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }}
+    {% endif %}"/>
+    <meta property="og:description" content="{% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}"/>
+  <meta property="og:url" content="{{ page.url }}"/>
+  <meta property="og:site_name" content="Karmi Phuc link blog"/>
+  <meta property="og:type" content="{% if page.title == "Home" %}
+      website
+    {% else %}
+      article
+    {% endif %}"/>
+  <meta property="og:image" content="https://cloud.githubusercontent.com/assets/3367376/12888231/9a8400ca-ceab-11e5-8ef4-f72c6b6e6999.png"/>
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
