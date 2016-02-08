@@ -7,7 +7,7 @@
   <meta property="fb:admins" content="100000023814639"/>
   <meta property="fb:app_id" content="542398892474873"/>
   <meta property="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}"/>
-  <meta property="og:description" content="{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}"/>
+  <meta property="og:description" content="{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.summary != null %}{{ page.summary }}{% else %}{{ site.title }} &middot; {{ site.tagline }}{% endif %}{% endif %}"/>
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
   <meta property="og:site_name" content="Karmi Phuc link blog"/>
   <meta property="og:type" content="{% if page.title == "Home" %}website{% else %}article{% endif %}"/>
