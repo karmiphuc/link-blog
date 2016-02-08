@@ -11,6 +11,7 @@ Việc Google đổi logo, không chỉ là thay đổi nhận dạng thương h
 Điều này giúp tối đa hóa trải nghiệm người dùng (trang web sẽ tải nhanh hơn) và cũng giảm hao tốn lưu lượng băng thông internet. Nếu bạn biết khi Google gặp sự cố 5 phút năm 2014 mà làm mất 40% truy cập internet toàn thế giới thì bạn sẽ hiểu việc giảm hao tốn nó thực sự ý nghĩa thế nào :)
 
 Tựu trung 2 gã khổng lồ của thế giới là 2 mặt của việc sử dụng thời gian:
+
 - Google giúp mọi người tiết kiệm thời gian để có thời gian rảnh.
 - Facebook giúp mọi người sử dụng hay tiêu xài thời gian rảnh đó.
 
