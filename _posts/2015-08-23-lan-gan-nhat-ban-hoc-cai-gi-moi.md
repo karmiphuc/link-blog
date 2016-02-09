@@ -3,6 +3,7 @@ layout: post
 title:  "Lần gần nhất bạn học cái gì đó lần đầu tiên?"
 summary: "Lần cuối cùng bạn làm hay học cái gì đó lần đầu tiên là khi nào vậy?"
 date:   2015-08-23 18:25:45 +0700
+published: false
 tags: LifeProTip
 ---
 Tối chủ nhật hỏi chơi cả nhà 1 câu nhẹ nhàng hen: **lần cuối cùng bạn làm hay học cái gì đó lần đầu tiên là khi nào vậy?**
