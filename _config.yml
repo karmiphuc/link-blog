@@ -25,6 +25,12 @@ url:                 https://karmiphuc.github.io
 baseurl:             '/link-blog'
 paginate:            5
 
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
+
 # About/contact
 author:
   name:              Karmi Phúc
