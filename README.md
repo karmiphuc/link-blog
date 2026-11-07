@@ -12,3 +12,14 @@ Self-contained summaries and practical checklists. These are reading notes, not 
 
 The Markdown text works offline from a downloaded checkout. Source links are for attribution and optional further reading; following them requires a connection.
 
+
+## More offline notes and licensed documentation — 2026-11-07
+
+- [DeskPad setup and troubleshooting — MIT documentation archive](_posts/2026-11-07-deskpad-offline-documentation.md)
+- [End the day with a restart plan — CC BY-SA adaptation](_posts/2026-11-07-evening-restart-plan-licensed-adaptation.md)
+- [Leave capacity for unpredictable work — reading note](_posts/2026-11-07-slack-capacity-reading-note.md)
+- [Make a professional gathering easier — reading note](_posts/2026-11-07-networking-low-pressure-reading-note.md)
+- [Build a game in playable slices — reading note](_posts/2026-11-07-small-game-iterations-reading-note.md)
+
+The DeskPad post retains the source documentation's readable text and MIT notice. The evening-habit post is an attributed CC BY-SA adaptation. Other entries are original explanatory notes, with source coverage stated in each post. No software binaries, remote images or entire discussion trees are included.
+
