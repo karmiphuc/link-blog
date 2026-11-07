@@ -23,3 +23,13 @@ The Markdown text works offline from a downloaded checkout. Source links are for
 
 The DeskPad post retains the source documentation's readable text and MIT notice. The evening-habit post is an attributed CC BY-SA adaptation. Other entries are original explanatory notes, with source coverage stated in each post. No software binaries, remote images or entire discussion trees are included.
 
+
+## Discussion reading notes — 2026-11-07
+
+- [Storyboard first, render after approval](_posts/2026-11-07-video-storyboard-approval-reading-note.md)
+- [Give the specification a cold review](_posts/2026-11-07-specification-cold-review-reading-note.md)
+- [An agent should edit a draft before it applies changes](_posts/2026-11-07-mcp-draft-apply-reading-note.md)
+- [Separate achievement from the fuel behind it](_posts/2026-11-07-achievement-motivation-reading-note.md)
+
+These are original offline reading notes based on the retrieved written portions of public discussions. They do not preserve complete comment trees, media or executable software. Each note states its author attribution, source coverage and reuse limits.
+
